@@ -49,7 +49,14 @@ Dependencies are automatically installed if you install via `pip install -e .`.
 
 ---
 
+## License
+
+This project is licensed under the *MIT License* - See the [LICENSE](https://github.com/potatoBrain07/dolfin/blob/main/LICENSE) file for more details.
+
+---
+
 ## Author
 
 [potatoBrain07](https://github.com/potatoBrain07)
 
+---
