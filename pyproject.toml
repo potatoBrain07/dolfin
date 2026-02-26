@@ -1,0 +1,9 @@
+[project]
+name = "dolfin"
+version = "0.1.0"
+description = "dolfin is a file encryptor."
+authors = [{name = "potatoBrain07"}]
+dependencies = ["cryptography"]
+
+[project.scripts]
+dolfin = "dolfin.main:main"

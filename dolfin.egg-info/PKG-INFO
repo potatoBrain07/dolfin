@@ -1,0 +1,6 @@
+Metadata-Version: 2.4
+Name: dolfin
+Version: 0.1.0
+Summary: dolfin is a file encryptor.
+Author: potatoBrain07
+Requires-Dist: cryptography
