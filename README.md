@@ -16,6 +16,8 @@ Encrypt and decrypt files or text securely using Fernet encryption.
 
 ## Usage
 
+-To run the program, type `dolphin` in your command prompt.
+
 - You can run three commands in this program.
 - 1. To encrypt a file, run this command.
 `enc path password`
@@ -35,3 +37,18 @@ git clone https://github.com/potatoBrain07/dolfin.git
 cd dolfin
 pip install -e .
 ```
+
+---
+
+## Dependencies
+
+-Python 3.1+
+-[cryptography](https://pypi.org/project/cryptography/)
+Dependencies are automatically installed if you install via `pip install -e .`.
+
+---
+
+## Author
+
+[potatoBrain07](https://github.com/potatoBrain07)
+
