@@ -1,13 +1,21 @@
 # Dolfin
 
 A simple **CLI encryption tool** built in Python.  
-Encrypt and decrypt files or text securely using Fernet encryption.
+Encrypt and decrypt files securely using Fernet encryption.
+
+---
+
+## Warning
+
+- If you forget your password, your data cannot be recovered.
+- Always test on dummy files before encrypting important data.
+- This tool overwrites the original file.
 
 ---
 
 ## Features
 
-- Encrypt and decrypt text or files
+- Encrypt and decrypt files
 - Password-protected encryption
 - Simple command-line interface
 - Runs anywhere with `dolfin` command after installation
@@ -42,7 +50,7 @@ pip install -e .
 
 ## Dependencies
 
-- Python 3.1+
+- Python 3.8+
 - [cryptography](https://pypi.org/project/cryptography/)
   
 Dependencies are automatically installed if you install via `pip install -e .`.
