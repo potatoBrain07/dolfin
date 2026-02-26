@@ -36,7 +36,7 @@ def main():
     ''')
 
     while(True):
-        print("$ ",end = "")
+        print("> ",end = "")
         prompt = input()
         words = prompt.split(" ")
         command = words[0]
