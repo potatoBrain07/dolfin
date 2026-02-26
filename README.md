@@ -19,7 +19,7 @@ Encrypt and decrypt files or text securely using Fernet encryption.
 - You can run three commands in this program.
 - 1. To encrypt a file, run this command.
 `enc path password`
-Note: '\' and '"' are accepted in the path field
+Note: '\\' and ' \" ' are accepted in the path field
 - 2. To decrypt a file, run this program
 `dec path password`
 - 3. To exit the program, the command is `exit`
