@@ -16,15 +16,15 @@ Encrypt and decrypt files or text securely using Fernet encryption.
 
 ## Usage
 
--To run the program, type `dolfin` in your command prompt.
+- To run the program, type `dolfin` in your command prompt.
 
 - You can run three commands in this program.
-- 1. To encrypt a file, run this command.
+  1. To encrypt a file, run this command.
 `enc path password`
 Note: '\\' and ' \" ' are accepted in the path field
-- 2. To decrypt a file, run this program
+  2. To decrypt a file, run this program
 `dec path password`
-- 3. To exit the program, the command is `exit`
+  3. To exit the program, the command is `exit`
 
 ---
 
@@ -51,7 +51,7 @@ Dependencies are automatically installed if you install via `pip install -e .`.
 
 ## License
 
-This project is licensed under the *MIT License* - See the [LICENSE](https://github.com/potatoBrain07/dolfin/blob/main/LICENSE) file for more details.
+This project is licensed under the **MIT License** - See the [LICENSE](https://github.com/potatoBrain07/dolfin/blob/main/LICENSE) file for more details.
 
 ---
 
