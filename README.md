@@ -5,34 +5,12 @@ Encrypt and decrypt files securely using Fernet encryption.
 
 ---
 
-## Warning
-
-- If you forget your password, your data cannot be recovered.
-- Always test on dummy files before encrypting important data.
-- This tool overwrites the original file.
-
----
-
 ## Features
 
-- Encrypt and decrypt files
+- Encrypt and decrypt files and directories
 - Password-protected encryption
 - Simple command-line interface
-- Runs anywhere with `dolfin` command after installation
-
----
-
-## Usage
-
-- To run the program, type `dolfin` in your command prompt.
-
-- You can run three commands in this program.
-  1. To encrypt a file, run this command.
-`enc path password`
-Note: '\\' and ' \" ' are accepted in the path field
-  2. To decrypt a file, run this program
-`dec path password`
-  3. To exit the program, the command is `exit`
+- Runs anywhere 
 
 ---
 
@@ -47,6 +25,20 @@ pip install -e .
 ```
 
 ---
+
+## Usage 
+
+1. Encrypt or decrypt a single file
+   `dolfin enc -f file.txt -p <invisible_password> #Creates file.txt.df`
+   `dolfin dec -f secret.txt.df -p <invisible_password> #Restores file.txt`
+2. Encrypt or decrypt files in a directory
+   `dolfin enc -d directory -p <invisible_password> #All files in directory will get a .df extension`
+   `dolfin dec -d directory -p <invisible_password> #All files in the directory will be restored`
+3. Encrypt the directory into a single archive or decrypt the archive
+   `dolfin enc -d directory --onefile -p <invisible_password> #Creates directory.df`
+   `dolfin dec -d directory --onefile -p <invisible_password> #Restores directory`
+
+**Note**: The password will not by visible during typing. 
 
 ## Dependencies
 
