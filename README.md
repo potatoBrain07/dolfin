@@ -7,9 +7,9 @@ Encrypt and decrypt files securely using Fernet encryption.
 
 ## Note
 
-- Version 0.2.0 is made with AI. However, syntax, and 0.1.0 was made by (potatoBrain07)[https://github.com/potatoBrain07].
+- Version 0.2.0 is made with AI. However, syntax, and 0.1.0 was made by [potatoBrain07](https://github.com/potatoBrain07).
 - The code has been inspected.
-- This tool is created by (potatoBrain07)[https://github.com/potatoBrain07] to learn concepts in Python.
+- This tool is created by [potatoBrain07](https://github.com/potatoBrain07) to learn concepts in Python.
 
 ---
 
